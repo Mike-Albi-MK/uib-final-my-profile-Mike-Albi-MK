@@ -16,13 +16,12 @@ $f-7: Notable;
 $f-8: Cutive Mono;
 
 
-$primary: #2e3440;
-$secondary: #3b4252;
-$tertiary: #434c5e;
-$quaternary: #4c566a;
-$quinary: #d8dee9;
-$senary: #e5e9f0;
-$septenary: #eceff4;
+$primary: #bad4aa;
+$secondary: #f9dc5c;
+$tertiary: #ff2c55;
+$quaternary: #2e3440;
+$quinary: #fffff7;
+
 
 
 @mixin header {
@@ -36,7 +35,7 @@ $septenary: #eceff4;
         padding-bottom: 0.2rem;
         font-family: $f-1;
         font-size: 1.2rem;
-        color: $septenary;
+        color: #fff;
     }
 }
 
@@ -44,7 +43,7 @@ $septenary: #eceff4;
     width: 100vw;
     height: 4vh;
     margin-top: 1rem;
-    background-color: $secondary;
+    background-color: #fff;
     font-family: $f-2;
     font-size: 1.4rem;
     font-weight: 400;
@@ -76,7 +75,7 @@ $septenary: #eceff4;
 
 body {
     font-size: 1.6rem;
-    background-color: $septenary;
+    background-color: #bad4aa;
 }
 
 header {
