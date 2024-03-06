@@ -92,6 +92,32 @@ main a {
   color: #fffff7;
 }
 
+.picBox1 {
+  width: 100vw;
+  height: 30vh;
+  margin: 0;
+  background-color: #f9dc5c;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-image: url("../images/marzahn.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.picBox2 {
+  width: 100vw;
+  height: 30vh;
+  margin: 0;
+  background-color: #f9dc5c;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-image: url("../images/");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*{font-family: $logo;
     font-size: 4rem;
     color: #191325;

@@ -104,6 +104,15 @@ $senary:#dddddd;
     }
 }
 
+@mixin picBox {
+    width: 100vw;
+    height: 30vh;
+    margin: 0;
+    background-color: $quaternary;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 
 * {
     margin: 0;
@@ -134,6 +143,22 @@ main {
 
 .box {
     @include box;
+}
+
+.picBox1 {
+    @include picBox;
+    background-image: url('../images/marzahn.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picBox2 {
+    @include picBox;
+    background-image: url('../images/');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
