@@ -10,6 +10,7 @@
 <body>
     
     <header>
+
         <div class="logo"><h3>mike.</h3>
         <h4>ALBRECHT</h4></div>
         <nav>
@@ -20,11 +21,12 @@
                 <li> <a href="#">contact</a></li>
             </ul>
         </nav>
+
     </header>
 
     <main>
         <section class="hero">
-            <h1>Hey there, </h1> 
+            <h1>Hey there,</h1> 
             <h3>new best friend!</h3>
             <p>My name is Mike Albrecht.</p>
             <p>I'm a web developer, art designer and writer in Berlin.</p>
@@ -32,9 +34,8 @@
         </section>
         
         <section class="aboutMe">
-            <div class="box">
-                <h3>ABOUT ME</h3>
-            </div>
+
+            <h3>ABOUT ME</h3>
 
             <img class="img1" src="./images/marzahn.jpg" alt="view of marzahn springbrunnen">
             <h2>MY LOCATION</h2>
@@ -51,20 +52,20 @@
 
         <section class="skills">
 
-            <div class="box">
+
                 <h3>SKILLS</h3>
-            </div>
+
 
             <img class="img4" src="./images/webstuff.jpg" alt="picture of a spider web">
             <h2>WEB DEVELOPMENT</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sunt sint eligendi. Itaque nulla nostrum voluptas dolorem odit maiores, voluptates, earum quo quas est hic magni? Rerum illo at excepturi assumenda mollitia numquam quaerat, voluptatem, expedita sequi laborum itaque ipsam?</p>
 
 
-            <img class="img5" src="./images/art5.jpg" alt="painting of red and blue colors clashing">
+            <img class="img5" src="./images/art4.jpg" alt="painting of colors clashing">
             <h2>ART DESIGN</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sunt sint eligendi. Itaque nulla nostrum voluptas dolorem odit maiores, voluptates, earum quo quas est hic magni? Rerum illo at excepturi assumenda mollitia numquam quaerat, voluptatem, expedita sequi laborum itaque ipsam?</p>
 
-            <img class="img6" src="./images/typewriter2.jpg" alt="pic of a vintage typewriter">
+            <img class="img6" src="./images/typeboard.jpg" alt="pic of a vintage typewriter">
             <h2>WRITING</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sunt sint eligendi. Itaque nulla nostrum voluptas dolorem odit maiores, voluptates, earum quo quas est hic magni? Rerum illo at excepturi assumenda mollitia numquam quaerat, voluptatem, expedita sequi laborum itaque ipsam?</p>
 
@@ -72,12 +73,31 @@
 
         <section class="contact">
 
-            
+  
+                <h4>Want to get in touch?</h4>
+   
+
+            <form action="/action_page.php" method="get">
+
+                <label for="fname">Your name:</label>
+                <br> 
+                <input class="nameBox" type="text" id="fname" name="firstName" value="" placeholder="Your first name" required>
+
+                <input class="nameBox" type="text" id="lname" name="lastName" value="" placeholder="Your last name" required>
+
+                <label for="email">Contact mail address</label>
+                <input class="mailBox" type="text" id="email" name="email" value="" placeholder="Your e-mail address" required>
+                <br><br>
+
+                <label for="yourMessage">Leave a message!</label>
+                <textarea name="yourmessage" id="yourMessage" cols="50" rows="10" placeholder="Your message ..."></textarea>
+                <br><br>
+
+                <button type="submit">Submit</button>
+
+            </form>
         </section>
-
-        
     </main>
-
 
     <br><br>
     <footer>
@@ -86,8 +106,8 @@
             <div><i class="fa-brands fa-square-facebook"></i></div>
             <div><i class="fa-brands fa-square-instagram"></i></div>
             <div><i class="fa-brands fa-linkedin"></i></div>
-            <p>&#169 2024 Mike Albrecht</p>
     </div>
+    <p>&#169 2024 Mike Albrecht</p>
 
     </footer>
 
