@@ -155,7 +155,15 @@ main {
 
 .picBox2 {
     @include picBox;
-    background-image: url('../images/');
+    background-image: url('../images/skeletonwork.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picBox3 {
+    @include picBox;
+    background-image: url('../images/webstuff.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

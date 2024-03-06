@@ -112,7 +112,20 @@ main a {
   background-color: #f9dc5c;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-image: url("../images/");
+  background-image: url("../images/skeletonwork.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.picBox3 {
+  width: 100vw;
+  height: 30vh;
+  margin: 0;
+  background-color: #f9dc5c;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-image: url("../images/webstuff.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
