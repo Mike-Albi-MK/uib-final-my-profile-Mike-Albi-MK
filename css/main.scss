@@ -6,63 +6,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Gajraj+One&family=Ojuju:wght@200..800&display=swap');
 
 
-$f-1: Verdana, sans-serif;
-$f-2: Montserrat, sans-serif;
-$f-3: Ojuju, sans-serif;
-$f-4: Big Shoulders Text; 
-$f-5: Gajraj One;
-$f-6: Bodoni Moda; 
-$f-7: Notable;
-$f-8: Cutive Mono;
+$f-1: Montserrat, sans-serif;
+$f-2: Ojuju, sans-serif;
+$f-3: Big Shoulders Text; 
+$f-4: Gajraj One;
+$f-5: Bodoni Moda; 
+$f-6: Notable;
+$f-7: Cutive Mono;
 
 
-$primary: #bad4aa;
-$secondary: #f9dc5c;
+$primary: #2e3440;
+$secondary: #e3edb4;
 $tertiary: #ff2c55;
-$quaternary: #2e3440;
+$quaternary: #f9dc5c;
 $quinary: #fffff7;
-
 
 
 @mixin header {
     width: 100vw;
-    height: 6vh;
-    background-color: $primary;
+    height: 15vh;
+    margin: 0.4rem;
+    border: 2px solid $quinary;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 
     .logo {
-        padding-top: 2em;
-        padding-left: 1rem;
-        padding-bottom: 0.2rem;
-        font-family: $f-1;
-        font-size: 1.2rem;
-        color: #fff;
+        padding-top: 0.5rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+        font-family: $f-3;
+        font-size: 4rem;
+        letter-spacing: 0.2em;
+        color: transparent;
+        -webkit-text-stroke: 1.5px $tertiary;
+
+        h4 {
+            font-family: $f-1;
+            font-size: 1rem;
+            letter-spacing: 1rem;
+            color: $tertiary;
+            -webkit-text-stroke: none;
+        }
     }
 }
 
 @mixin nav {
     width: 100vw;
-    height: 4vh;
-    margin-top: 1rem;
-    background-color: #fff;
-    font-family: $f-2;
+    font-family: $f-1;
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
-    text-align: center;
 
     ul {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
         list-style: none;
     }
 
      a {
-        color: $septenary;
+        padding-left: 1.8rem;
+        color: $quinary;
         text-decoration: none;
     }
 }
-    
+
 * {
     margin: 0;
     padding: 0;
@@ -75,7 +82,7 @@ $quinary: #fffff7;
 
 body {
     font-size: 1.6rem;
-    background-color: #bad4aa;
+    background-color: $secondary;
 }
 
 header {
@@ -85,7 +92,6 @@ header {
 nav {
     @include nav;
 }
-
 
 
 
