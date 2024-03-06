@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Notable&family=Ojuju:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Gajraj+One&family=Ojuju:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Gajraj+One&family=Ojuju:wght@200..800&display=swap');
 
-$logo: Anta, sans-serif;
+
+$f-1: Verdana, sans-serif;
+$f-2: Montserrat, sans-serif;
+$f-3: Ojuju, sans-serif;
+$f-4: Big Shoulders Text; 
+$f-5: Gajraj One;
+$f-6: Bodoni Moda; 
+$f-7: Notable;
+$f-8: Cutive Mono;
+
+
 $primary: #2e3440;
 $secondary: #3b4252;
 $tertiary: #434c5e;
@@ -12,24 +24,46 @@ $quinary: #d8dee9;
 $senary: #e5e9f0;
 $septenary: #eceff4;
 
+
+@mixin header {
+    width: 100vw;
+    height: 6vh;
+    background-color: $primary;
+
+    .logo {
+        padding-top: 2em;
+        padding-left: 1rem;
+        padding-bottom: 0.2rem;
+        font-family: $f-1;
+        font-size: 1.2rem;
+        color: $septenary;
+    }
+}
+
 @mixin nav {
-    font-family: Montserrat, sans-serif;
-    font-size: 1.5rem;
-    font-weight: 800;
+    width: 100vw;
+    height: 4vh;
+    margin-top: 1rem;
+    background-color: $secondary;
+    font-family: $f-2;
+    font-size: 1.4rem;
+    font-weight: 400;
     text-transform: uppercase;
-    word-spacing: 0.5em;
+    text-align: center;
 
-
-     a {
-        color: #c9c9bc;
-        text-decoration: none;
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style: none;
     }
 
+     a {
+        color: $septenary;
+        text-decoration: none;
+    }
 }
     
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -42,18 +76,19 @@ $septenary: #eceff4;
 
 body {
     font-size: 1.6rem;
-    background-color: #fbfbfb;
+    background-color: $septenary;
 }
 
-.logo {
-    font-family: $logo;
-    font-size: 4rem;
-    color: #a3a398;
+header {
+    @include header;
 }
 
 nav {
     @include nav;
 }
+
+
+
 
 /*{font-family: $logo;
     font-size: 4rem;
@@ -73,39 +108,6 @@ nav {
 }
 */
 
-.hamburger span {
-    display: block;
-    width: 35px;
-    height: 3px;
-    margin: 6px auto;
-    background-color: #333;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .hamburger.active span:nth-child(1) {
-    transform: rotate(-45deg) translate(-9px, 6px);
-  }
-  
-  .hamburger.active span:nth-child(2) {
-    opacity: 0;
-  }
-  
-  .hamburger.active span:nth-child(3) {
-    transform: rotate(45deg) translate(-8px, -8px);
-  }
-
-
-  @media (max-width: 768px) {
-    .hamburger {
-      display: block;
-    }
-  }
-  
-  @media (min-width: 769px) {
-    .hamburger {
-      display: none;
-    }
-  }
 
 .footContainer {
     display: flex;
