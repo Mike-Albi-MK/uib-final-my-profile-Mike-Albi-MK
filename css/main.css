@@ -21,7 +21,7 @@ body {
 
 header {
   width: 100vw;
-  height: 15vh;
+  height: 14vh;
   margin: 0.4rem;
   border: 2px solid #fffff7;
   border-top-left-radius: 20px;
@@ -59,6 +59,20 @@ nav ul {
 }
 nav a {
   padding-left: 1.8rem;
+  color: #fffff7;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #ff2c55;
+}
+
+main {
+  padding-top: 4rem;
+  padding-left: 2rem;
+  font-family: Montserrat, sans-serif;
+}
+main a {
+  font-size: 1.6rem;
   color: #fffff7;
   text-decoration: none;
 }

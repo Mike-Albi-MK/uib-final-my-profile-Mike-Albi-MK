@@ -24,7 +24,7 @@ $quinary: #fffff7;
 
 @mixin header {
     width: 100vw;
-    height: 15vh;
+    height: 14vh;
     margin: 0.4rem;
     border: 2px solid $quinary;
     border-top-left-radius: 20px;
@@ -68,7 +68,25 @@ $quinary: #fffff7;
         color: $quinary;
         text-decoration: none;
     }
+
+    a:hover {
+        color: $tertiary;
+    }
 }
+
+@mixin main {
+    padding-top: 4rem;
+    padding-left: 2rem;
+    font-family: $f-1;
+
+    a {
+        font-size: 1.6rem;
+        color: $quinary;
+        text-decoration: none;
+    }
+}
+
+
 
 * {
     margin: 0;
@@ -91,6 +109,10 @@ header {
 
 nav {
     @include nav;
+}
+
+main {
+    @include main;
 }
 
 
