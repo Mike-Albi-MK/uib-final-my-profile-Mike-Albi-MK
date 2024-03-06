@@ -16,14 +16,15 @@
 
 body {
   font-size: 1.6rem;
-  background-color: #e3edb4;
+  background-color: #fffff7;
 }
 
 header {
   width: 100vw;
   height: 14vh;
   margin: 0.4rem;
-  border: 2px solid #fffff7;
+  background-color: #e3edb4;
+  border: 2px solid #ff2c55;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -59,7 +60,7 @@ nav ul {
 }
 nav a {
   padding-left: 1.8rem;
-  color: #fffff7;
+  color: #2e3440;
   text-decoration: none;
 }
 nav a:hover {
@@ -68,13 +69,27 @@ nav a:hover {
 
 main {
   padding-top: 4rem;
-  padding-left: 2rem;
   font-family: Montserrat, sans-serif;
+}
+main .hero {
+  padding-left: 2rem;
 }
 main a {
   font-size: 1.6rem;
   color: #fffff7;
   text-decoration: none;
+}
+
+.box {
+  width: 20rem;
+  height: 4rem;
+  margin-left: 0.4rem;
+  background-color: #f9dc5c;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.box h3 {
+  color: #fffff7;
 }
 
 /*{font-family: $logo;

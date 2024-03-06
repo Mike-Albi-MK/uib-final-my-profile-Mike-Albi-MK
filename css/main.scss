@@ -20,13 +20,15 @@ $secondary: #e3edb4;
 $tertiary: #ff2c55;
 $quaternary: #f9dc5c;
 $quinary: #fffff7;
+$senary:#dddddd; 
 
 
 @mixin header {
     width: 100vw;
     height: 14vh;
     margin: 0.4rem;
-    border: 2px solid $quinary;
+    background-color: $secondary;
+    border: 2px solid $tertiary;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 
@@ -65,7 +67,7 @@ $quinary: #fffff7;
 
      a {
         padding-left: 1.8rem;
-        color: $quinary;
+        color: $primary;
         text-decoration: none;
     }
 
@@ -76,8 +78,11 @@ $quinary: #fffff7;
 
 @mixin main {
     padding-top: 4rem;
-    padding-left: 2rem;
     font-family: $f-1;
+
+    .hero {
+        padding-left: 2rem;
+    }
 
     a {
         font-size: 1.6rem;
@@ -86,6 +91,18 @@ $quinary: #fffff7;
     }
 }
 
+@mixin box {
+    width: 20rem;
+    height: 4rem;
+    margin-left: 0.4rem;
+    background-color: $quaternary;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    h3 {
+        color: $quinary;
+    }
+}
 
 
 * {
@@ -100,7 +117,7 @@ $quinary: #fffff7;
 
 body {
     font-size: 1.6rem;
-    background-color: $secondary;
+    background-color: $quinary;
 }
 
 header {
@@ -113,6 +130,10 @@ nav {
 
 main {
     @include main;
+}
+
+.box {
+    @include box;
 }
 
 
