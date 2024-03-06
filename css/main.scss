@@ -104,14 +104,6 @@ $senary:#dddddd;
     }
 }
 
-@mixin picBox {
-    width: 100vw;
-    height: 30vh;
-    margin: 0;
-    background-color: $quaternary;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
 
 
 * {
@@ -145,28 +137,16 @@ main {
     @include box;
 }
 
-.picBox1 {
-    @include picBox;
-    background-image: url('../images/marzahn.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.picBox2 {
-    @include picBox;
-    background-image: url('../images/skeletonwork.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.picBox3 {
-    @include picBox;
-    background-image: url('../images/webstuff.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6 {
+    width: 80vw;
+    margin-left: 3.5rem;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 
