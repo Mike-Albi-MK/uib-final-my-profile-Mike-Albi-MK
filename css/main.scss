@@ -373,14 +373,18 @@ footer {
         margin: 0.4em;
     }
 
-    .aboutMe {
+ 
 
         .flexContainer {
             display: flex;
             flex-direction: row;
+             
+            p {
+                width: 50vw;
+            }
         }
 
-    }
+  
 
 
     .img1,
@@ -389,7 +393,7 @@ footer {
     .img4,
     .img5,
     .img6 {
-        width: 60vw;
+        width: 50vw;
         display: block;
     }
 

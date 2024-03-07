@@ -278,9 +278,12 @@ footer p {
   header {
     margin: 0.4em;
   }
-  .aboutMe .flexContainer {
+  .flexContainer {
     display: flex;
     flex-direction: row;
+  }
+  .flexContainer p {
+    width: 50vw;
   }
   .img1,
   .img2,
@@ -288,7 +291,7 @@ footer p {
   .img4,
   .img5,
   .img6 {
-    width: 60vw;
+    width: 50vw;
     display: block;
   }
   .nameBox {
