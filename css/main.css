@@ -242,10 +242,7 @@ footer .footContainer {
 }
 footer .footContainer .fa-brands {
   margin: 1.5rem;
-  font-size: 2rem;
-}
-footer .footContainer .fa-brands:hover {
-  scale: 200%;
+  font-size: 3rem;
 }
 footer p {
   margin-left: 12rem;
@@ -257,13 +254,15 @@ footer p {
 }
 
 @media screen and (min-width: 769px) {
-  body {
-    width: 50vw;
+  .aboutMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
-  .aboutMe,
   .skills {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
   .img1,
   .img2,
@@ -271,6 +270,9 @@ footer p {
   .img4,
   .img5,
   .img6 {
-    width: 50vw;
+    width: 80vw;
+  }
+  .footContainer {
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=main.css.map */
