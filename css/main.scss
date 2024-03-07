@@ -20,6 +20,7 @@ $secondary: #de9e9b;
 $tertiary: #dbab29;
 $quaternary: #a5b283;
 $quinary: #596b54;
+$senary: #f44336;
 
 
 @mixin header {
@@ -105,7 +106,7 @@ $quinary: #596b54;
     }
 
 button {
-    background-color: $secondary;
+    background-color: $senary;
     color: $primary;
     border-style: none;
     border-radius: 5px;
