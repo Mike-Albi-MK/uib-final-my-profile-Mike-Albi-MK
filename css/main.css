@@ -111,19 +111,22 @@ main p {
 }
 main p .s-1:hover {
   font-family: Big Shoulders Text;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  color: #fcffff;
 }
 main p .s-2:hover {
   font-family: Gajraj One;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  color: #e95551;
 }
 main p .s-3:hover {
   font-family: Bodoni Moda;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 main p .s-4:hover {
   font-family: Cutive Mono;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  color: #fcffff;
 }
 main button a {
   font-size: 1.6rem;

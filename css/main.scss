@@ -105,22 +105,25 @@ $quaternary: #5b3055;
 
         .s-1:hover {
             font-family: $f-3;
-            font-size: 2.5rem;
+            font-size: 3.5rem;
+            color: $primary;
         }
 
         .s-2:hover {
             font-family: $f-4;
-            font-size: 2.5rem;
+            font-size: 3.5rem;
+            color: $tertiary;
         }
 
         .s-3:hover {
             font-family: $f-5;
-            font-size: 2.5rem;
+            font-size: 3.5rem;
         }
 
         .s-4:hover {
             font-family: $f-7;
-            font-size: 2.5rem;
+            font-size: 3.5rem;
+            color: $primary;
         }
 
     }
