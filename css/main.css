@@ -114,16 +114,16 @@ main p .s-1:hover {
   font-size: 3.5rem;
   color: #fcffff;
 }
-main p .s-2:hover {
+main .p-2:hover {
   font-family: Gajraj One;
   font-size: 3.5rem;
   color: #e95551;
 }
-main p .s-3:hover {
+main .p-3:hover {
   font-family: Bodoni Moda;
   font-size: 3.5rem;
 }
-main p .s-4:hover {
+main .p-4:hover {
   font-family: Cutive Mono;
   font-size: 3.5rem;
   color: #fcffff;
