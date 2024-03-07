@@ -38,7 +38,7 @@ body {
 
 header {
   width: 100vw;
-  height: 16vh;
+  min-height: 16vh;
   margin: 0;
   background-color: #5b3055;
   border: 2px solid #e95551;
@@ -117,7 +117,7 @@ main button a {
 
 .aboutMe {
   width: 100vw;
-  height: 240vh;
+  min-height: 240vh;
   padding-top: 2rem;
   padding-left: 4rem;
   padding-right: 4rem;
@@ -155,7 +155,7 @@ main button a {
 
 .skills {
   width: 100vw;
-  height: 220vh;
+  min-height: 220vh;
   padding-top: 0.5rem;
   padding-left: 4rem;
   padding-right: 4rem;
@@ -194,7 +194,7 @@ main button a {
 
 .contact {
   width: 100vw;
-  height: 80vh;
+  min-height: 80vh;
   padding-left: 2rem;
   padding-top: 2rem;
   padding-left: 2rem;
@@ -230,7 +230,7 @@ main button a {
 
 footer {
   width: 100vw;
-  height: 10vh;
+  min-height: 10vh;
   background-color: #5b3055;
   font-family: Montserrat, sans-serif;
   font-size: 1.2rem;
@@ -254,4 +254,23 @@ footer p {
 .footContainer {
   display: flex;
   flex-direction: row;
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    width: 50vw;
+  }
+  .aboutMe,
+  .skills {
+    display: flex;
+    flex-direction: row;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6 {
+    width: 50vw;
+  }
 }/*# sourceMappingURL=main.css.map */
