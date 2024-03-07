@@ -278,22 +278,9 @@ footer p {
   header {
     margin: 0.4em;
   }
-  .aboutMe {
+  .aboutMe .flexContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding-left: 2rem;
-  }
-  .aboutMe p {
-    width: 50vw;
-  }
-  .skills {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  .skills p {
-    width: 50vw;
   }
   .img1,
   .img2,
@@ -301,7 +288,7 @@ footer p {
   .img4,
   .img5,
   .img6 {
-    width: 30vw;
+    width: 60vw;
     display: block;
   }
   .nameBox {
