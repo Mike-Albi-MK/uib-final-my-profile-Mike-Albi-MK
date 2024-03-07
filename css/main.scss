@@ -374,25 +374,14 @@ footer {
     }
 
     .aboutMe {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding-left: 2rem;
 
-        p {
-            width: 50vw;
+        .flexContainer {
+            display: flex;
+            flex-direction: row;
         }
+
     }
 
-    .skills {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-
-        p {
-            width: 50vw;
-        }
-    }
 
     .img1,
     .img2,
@@ -400,7 +389,7 @@ footer {
     .img4,
     .img5,
     .img6 {
-        width: 30vw;
+        width: 60vw;
         display: block;
     }
 
