@@ -39,7 +39,7 @@ body {
 header {
   width: 100vw;
   min-height: 16vh;
-  margin: 0;
+  margin: 0.2em;
   background-color: #5b3055;
   border: 2px solid #e95551;
   border-top-left-radius: 20px;
@@ -98,15 +98,32 @@ main .hero {
   padding-bottom: 4rem;
   margin-bottom: 4rem;
 }
-main h3 {
+main h2 {
   padding-bottom: 2rem;
-  color: #5b3055;
+  font-family: Big Shoulders Text;
+  color: #f39434;
 }
 main p {
   width: 60vw;
   padding-bottom: 3rem;
   font-weight: 500;
   line-height: 180%;
+}
+main p .s-1:hover {
+  font-family: Big Shoulders Text;
+  font-size: 2.5rem;
+}
+main p .s-2:hover {
+  font-family: Gajraj One;
+  font-size: 2.5rem;
+}
+main p .s-3:hover {
+  font-family: Bodoni Moda;
+  font-size: 2.5rem;
+}
+main p .s-4:hover {
+  font-family: Cutive Mono;
+  font-size: 2.5rem;
 }
 main button a {
   font-size: 1.6rem;
@@ -163,6 +180,7 @@ main button a {
 }
 .skills h3 {
   padding-bottom: 1rem;
+  color: #f39434;
 }
 .skills h4 {
   padding-bottom: 1.4rem;
@@ -254,15 +272,25 @@ footer p {
 }
 
 @media screen and (min-width: 769px) {
+  header {
+    margin: 0.4em;
+  }
   .aboutMe {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-left: 2rem;
+  }
+  .aboutMe p {
+    width: 50vw;
   }
   .skills {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+  .skills p {
+    width: 50vw;
   }
   .img1,
   .img2,
@@ -270,9 +298,19 @@ footer p {
   .img4,
   .img5,
   .img6 {
-    width: 80vw;
+    width: 30vw;
+    display: block;
+  }
+  .nameBox {
+    max-width: 20vw;
+  }
+  .mailBox {
+    max-width: 40vw;
+  }
+  button {
+    max-width: 20rem;
   }
   .footContainer {
-    margin: 0 auto;
+    align-self: center;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -24,7 +24,7 @@ $quaternary: #5b3055;
 @mixin header {
     width: 100vw;
     min-height: 16vh;
-    margin: 0;
+    margin: 0.2em;
     background-color: $quaternary;
     border: 2px solid $tertiary;
     border-top-left-radius: 20px;
@@ -91,9 +91,10 @@ $quaternary: #5b3055;
 
     }
 
-    h3 {
+    h2 {
         padding-bottom: 2rem;
-        color: $quaternary;
+        font-family: $f-3;
+        color: $secondary;
     }
 
     p {
@@ -101,7 +102,30 @@ $quaternary: #5b3055;
         padding-bottom: 3rem;
         font-weight: 500;
         line-height: 180%;
+
+        .s-1:hover {
+            font-family: $f-3;
+            font-size: 2.5rem;
+        }
+
+        .s-2:hover {
+            font-family: $f-4;
+            font-size: 2.5rem;
+        }
+
+        .s-3:hover {
+            font-family: $f-5;
+            font-size: 2.5rem;
+        }
+
+        .s-4:hover {
+            font-family: $f-7;
+            font-size: 2.5rem;
+        }
+
     }
+
+
 
     button a {
         font-size: 1.6rem;
@@ -169,6 +193,7 @@ $quaternary: #5b3055;
 
     h3 {
         padding-bottom: 1rem;
+        color: $secondary;
     }
 
     h4 {
@@ -341,20 +366,30 @@ footer {
     
 @media screen and (min-width:769px) {
 
-   
+    header {
+        margin: 0.4em;
+    }
 
     .aboutMe {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        padding-left: 2rem;
+
+        p {
+            width: 50vw;
+        }
     }
 
     .skills {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-    }
 
+        p {
+            width: 50vw;
+        }
+    }
 
     .img1,
     .img2,
@@ -362,10 +397,23 @@ footer {
     .img4,
     .img5,
     .img6 {
-        width: 80vw;
+        width: 30vw;
+        display: block;
+    }
+
+    .nameBox {
+        max-width: 20vw;
+    }
+
+    .mailBox {
+        max-width: 40vw;
+    }
+
+    button {
+        max-width: 20rem;
     }
 
     .footContainer {
-        margin: 0 auto;
+        align-self: center;
     }
 }
