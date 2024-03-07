@@ -15,19 +15,17 @@ $f-6: Notable;
 $f-7: Cutive Mono;
 
 
-$primary: #fcfbfb;
-$secondary: #de9e9b;
-$tertiary: #dbab29;
-$quaternary: #a5b283;
-$quinary: #596b54;
-$senary: #f44336;
+$primary: #fcffff;
+$secondary: #f39434;
+$tertiary: #e95551;
+$quaternary: #5b3055;
 
 
 @mixin header {
     width: 100vw;
     height: 16vh;
     margin: 0;
-    background-color: $quinary;
+    background-color: $quaternary;
     border: 2px solid $tertiary;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -41,14 +39,14 @@ $senary: #f44336;
         letter-spacing: 0.2em;
 
         h3 {
-            color: $tertiary;
+            color: $secondary;
         }
 
         h4 {
             font-family: $f-3;
             font-size: 1.6rem;
             letter-spacing: 1rem;
-            color: $tertiary;
+            color: $secondary
         }
     }
 }
@@ -75,48 +73,120 @@ $senary: #f44336;
     a:hover {
         color: $tertiary;
     }
+
+    a:active {
+        color: $secondary;
+    }
 }
 
 @mixin main {
     padding-top: 2rem;
     font-family: $f-1;
-    background-color: $quinary;
+    background-color: $quaternary;
 
     .hero {
         padding-left: 4rem;
         padding-bottom: 4rem;
         margin-bottom: 4rem;
+
     }
 
-    a {
-        font-size: 1.6rem;
-        color: $quinary;
-        text-decoration: none;
+    h3 {
+        padding-bottom: 2rem;
+        color: $quaternary;
+    }
+
+    p {
+        width: 60vw;
+        padding-bottom: 3rem;
+        font-weight: 500;
+        line-height: 180%;
     }
 
     button a {
+        font-size: 1.6rem;
+        font-weight: 600;
         color: $primary;
+        text-decoration: none;
     }
+
+    
 }
 
 @mixin about {
     width: 100vw;
-    height: 160vh;
+    height: 240vh;
     padding-top: 2rem;
     padding-left: 4rem;
     padding-right: 4rem;
     margin-bottom: 4rem;
     background-color: $primary;
 
+    h3 {
+        padding-bottom: 1rem;
+        color: $quaternary;
+    }
+
+    h4 {
+        padding-bottom: 1.4rem;
+        color: $quaternary;
+    }
+
+    p {
+        width: 80vw;
+        padding-bottom: 3rem;
+        font-weight: 500;
+        line-height: 180%;
+        color: $quaternary;
+    }
+
+    img {
+        padding-bottom: 1rem;
+    }
+
+    a {
+        color: $secondary;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $tertiary;
+    }
+
+    a:active {
+        color: $tertiary;
+    }
+
 }
 
 @mixin skills {
     width: 100vw;
-    height: 140vh;
+    height: 220vh;
     padding-top: 0.5rem;
     padding-left: 4rem;
     padding-right: 4rem;
     margin-bottom: 4rem;
+
+    h3 {
+        padding-bottom: 1rem;
+    }
+
+    h4 {
+        padding-bottom: 1.4rem;
+    }
+
+    p {
+        width: 80vw;
+        padding-bottom: 3rem;
+        font-weight: 500;
+        line-height: 180%;
+        color: $secondary;
+    }
+
+    img {
+        padding-bottom: 1rem;
+    }
+
 }
 
 
@@ -124,8 +194,9 @@ $senary: #f44336;
 button {
     width: 60%;
     padding: 0.5em;
-    background-color: $senary;
-    color: $primary;
+    background-color: $primary;
+    font-weight: 700;
+    color: $quaternary;
     border-style: none;
     border-radius: 5px;
 }
@@ -141,9 +212,10 @@ input {
 @mixin footer {
     width: 100vw;
     height: 10vh;
-    background-color: $quinary;
+    background-color: $quaternary;
     font-family: $f-1;
     font-size: 1.2rem;
+    font-weight: 400;
     color: $primary;
 
     .footContainer {
@@ -178,11 +250,13 @@ input {
 
 body {
     font-size: 1.6rem;
+    color: $secondary;
+    background-color: $quaternary;
 }
 
 header {
     @include header;
-    background-color: $quinary;
+    background-color: $quaternary;
 }
 
 nav {
@@ -217,15 +291,22 @@ main {
 
 .contact {
     width: 100vw;
-    height: 50vh;
+    height: 80vh;
     padding-left: 2rem;
     padding-top: 2rem;
     padding-left: 2rem;
     margin-bottom: 4rem;
+    font-weight: 500;
+    line-height: 180%;
     background-color: $primary;
+
+    label {
+        color: $quaternary;
+    }
 
     h3 {
         padding-bottom: 1.2rem;
+        color: $quaternary;
     }
 
     .nameBox {
@@ -241,6 +322,12 @@ main {
     
     textarea {
         margin: 0.2em;
+    }
+
+    .b1 {
+        background-color: $quaternary;
+        color: $primary;
+        font-weight: 800;
     }
 }
 

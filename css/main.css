@@ -7,8 +7,9 @@
 button {
   width: 60%;
   padding: 0.5em;
-  background-color: #f44336;
-  color: #fcfbfb;
+  background-color: #fcffff;
+  font-weight: 700;
+  color: #5b3055;
   border-style: none;
   border-radius: 5px;
 }
@@ -31,17 +32,19 @@ input {
 
 body {
   font-size: 1.6rem;
+  color: #f39434;
+  background-color: #5b3055;
 }
 
 header {
   width: 100vw;
   height: 16vh;
   margin: 0;
-  background-color: #596b54;
-  border: 2px solid #dbab29;
+  background-color: #5b3055;
+  border: 2px solid #e95551;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #596b54;
+  background-color: #5b3055;
 }
 header .logo {
   padding-top: 0.5rem;
@@ -52,13 +55,13 @@ header .logo {
   letter-spacing: 0.2em;
 }
 header .logo h3 {
-  color: #dbab29;
+  color: #f39434;
 }
 header .logo h4 {
   font-family: Big Shoulders Text;
   font-size: 1.6rem;
   letter-spacing: 1rem;
-  color: #dbab29;
+  color: #f39434;
 }
 
 nav {
@@ -75,49 +78,104 @@ nav ul {
 }
 nav a {
   padding-left: 1.8rem;
-  color: #fcfbfb;
+  color: #fcffff;
   text-decoration: none;
 }
 nav a:hover {
-  color: #dbab29;
+  color: #e95551;
+}
+nav a:active {
+  color: #f39434;
 }
 
 main {
   padding-top: 2rem;
   font-family: Montserrat, sans-serif;
-  background-color: #596b54;
+  background-color: #5b3055;
 }
 main .hero {
   padding-left: 4rem;
   padding-bottom: 4rem;
   margin-bottom: 4rem;
 }
-main a {
-  font-size: 1.6rem;
-  color: #596b54;
-  text-decoration: none;
+main h3 {
+  padding-bottom: 2rem;
+  color: #5b3055;
+}
+main p {
+  width: 60vw;
+  padding-bottom: 3rem;
+  font-weight: 500;
+  line-height: 180%;
 }
 main button a {
-  color: #fcfbfb;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fcffff;
+  text-decoration: none;
 }
 
 .aboutMe {
   width: 100vw;
-  height: 160vh;
+  height: 240vh;
   padding-top: 2rem;
   padding-left: 4rem;
   padding-right: 4rem;
   margin-bottom: 4rem;
-  background-color: #fcfbfb;
+  background-color: #fcffff;
+}
+.aboutMe h3 {
+  padding-bottom: 1rem;
+  color: #5b3055;
+}
+.aboutMe h4 {
+  padding-bottom: 1.4rem;
+  color: #5b3055;
+}
+.aboutMe p {
+  width: 80vw;
+  padding-bottom: 3rem;
+  font-weight: 500;
+  line-height: 180%;
+  color: #5b3055;
+}
+.aboutMe img {
+  padding-bottom: 1rem;
+}
+.aboutMe a {
+  color: #f39434;
+  text-decoration: none;
+}
+.aboutMe a:hover {
+  color: #e95551;
+}
+.aboutMe a:active {
+  color: #e95551;
 }
 
 .skills {
   width: 100vw;
-  height: 140vh;
+  height: 220vh;
   padding-top: 0.5rem;
   padding-left: 4rem;
   padding-right: 4rem;
   margin-bottom: 4rem;
+}
+.skills h3 {
+  padding-bottom: 1rem;
+}
+.skills h4 {
+  padding-bottom: 1.4rem;
+}
+.skills p {
+  width: 80vw;
+  padding-bottom: 3rem;
+  font-weight: 500;
+  line-height: 180%;
+  color: #f39434;
+}
+.skills img {
+  padding-bottom: 1rem;
 }
 
 .img1,
@@ -136,15 +194,21 @@ main button a {
 
 .contact {
   width: 100vw;
-  height: 50vh;
+  height: 80vh;
   padding-left: 2rem;
   padding-top: 2rem;
   padding-left: 2rem;
   margin-bottom: 4rem;
-  background-color: #fcfbfb;
+  font-weight: 500;
+  line-height: 180%;
+  background-color: #fcffff;
+}
+.contact label {
+  color: #5b3055;
 }
 .contact h3 {
   padding-bottom: 1.2rem;
+  color: #5b3055;
 }
 .contact .nameBox {
   margin-bottom: 1em;
@@ -158,14 +222,20 @@ main button a {
 .contact textarea {
   margin: 0.2em;
 }
+.contact .b1 {
+  background-color: #5b3055;
+  color: #fcffff;
+  font-weight: 800;
+}
 
 footer {
   width: 100vw;
   height: 10vh;
-  background-color: #596b54;
+  background-color: #5b3055;
   font-family: Montserrat, sans-serif;
   font-size: 1.2rem;
-  color: #fcfbfb;
+  font-weight: 400;
+  color: #fcffff;
 }
 footer .footContainer {
   margin-left: 8rem;
