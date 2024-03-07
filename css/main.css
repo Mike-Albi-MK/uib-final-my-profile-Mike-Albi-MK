@@ -42,6 +42,7 @@ header {
   border: 2px solid #dbab29;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  background-color: #596b54;
 }
 header .logo {
   padding-top: 0.5rem;
@@ -51,7 +52,7 @@ header .logo {
   font-size: 4rem;
   letter-spacing: 0.2em;
   color: transparent;
-  -webkit-text-stroke: 1.5px #fcfbfb;
+  -webkit-text-stroke: 1.5px #dbab29;
 }
 header .logo h4 {
   font-family: Big Shoulders Text;

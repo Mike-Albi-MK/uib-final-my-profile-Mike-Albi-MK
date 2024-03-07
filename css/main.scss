@@ -39,7 +39,7 @@ $senary: #f44336;
         font-size: 4rem;
         letter-spacing: 0.2em;
         color: transparent;
-        -webkit-text-stroke: 1.5px $primary;
+        -webkit-text-stroke: 1.5px $tertiary;
 
         h4 {
             font-family: $f-3;
@@ -164,6 +164,7 @@ body {
 
 header {
     @include header;
+    background-color: $quinary;
 }
 
 nav {
