@@ -105,25 +105,25 @@ $quaternary: #5b3055;
 
         .s-1:hover {
             font-family: $f-3;
-            font-size: 3.5rem;
+            font-size: 4.5rem;
             color: $primary;
         }
     }
 
         .p-2:hover {
             font-family: $f-4;
-            font-size: 3.5rem;
+            font-size: 5rem;
             color: $tertiary;
         }
 
         .p-3:hover {
             font-family: $f-5;
-            font-size: 3.5rem;
+            font-size: 5rem;
         }
 
         .p-4:hover {
             font-family: $f-7;
-            font-size: 3.5rem;
+            font-size: 5rem;
             color: $primary;
         }
 
@@ -379,14 +379,16 @@ footer {
         .flexContainer {
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
+            margin: 0 auto;
              
+
             p {
-                width: 50vw;
+                width: 20vw;
             }
         }
 
-  
-
+       
 
     .img1,
     .img2,
@@ -411,6 +413,7 @@ footer {
     }
 
     .footContainer {
+        margin-left: 50rem;
         align-self: center;
     }
 }

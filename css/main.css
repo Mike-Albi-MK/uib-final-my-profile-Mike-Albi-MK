@@ -111,21 +111,21 @@ main p {
 }
 main p .s-1:hover {
   font-family: Big Shoulders Text;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   color: #fcffff;
 }
 main .p-2:hover {
   font-family: Gajraj One;
-  font-size: 3.5rem;
+  font-size: 5rem;
   color: #e95551;
 }
 main .p-3:hover {
   font-family: Bodoni Moda;
-  font-size: 3.5rem;
+  font-size: 5rem;
 }
 main .p-4:hover {
   font-family: Cutive Mono;
-  font-size: 3.5rem;
+  font-size: 5rem;
   color: #fcffff;
 }
 main button a {
@@ -281,9 +281,11 @@ footer p {
   .flexContainer {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
   }
   .flexContainer p {
-    width: 50vw;
+    width: 20vw;
   }
   .img1,
   .img2,
@@ -304,6 +306,7 @@ footer p {
     max-width: 20rem;
   }
   .footContainer {
+    margin-left: 50rem;
     align-self: center;
   }
 }/*# sourceMappingURL=main.css.map */
