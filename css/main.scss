@@ -379,12 +379,12 @@ footer {
         .flexContainer {
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-evenly;
             margin: 0 auto;
              
 
             p {
-                width: 20vw;
+                width: 50vw;
             }
         }
 

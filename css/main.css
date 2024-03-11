@@ -281,11 +281,11 @@ footer p {
   .flexContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 auto;
   }
   .flexContainer p {
-    width: 20vw;
+    width: 50vw;
   }
   .img1,
   .img2,
